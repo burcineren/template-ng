@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto+Slab&display=swap');
+:root{
+    --main-color: #7cc576;
+    --text-gray: rgb(105, 103, 103);
+}
+body{
+    background: #fff;
+    display: block;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Roboto Slab', serif !important;
+}
+a{
+    font-family: 'Montserrat', sans-serif !important;
+}
+.slide-bg{
+    /* background: url(assets/images/1.png); */
+    background-repeat: no-repeat;
+}
+.carousel-caption{
+    top:30%;
+}
+.text-gray{
+    color: var(--text-gray) !important;
+}
+.text-up{
+    text-transform: uppercase;
+}
+.btn-green{
+    background: #7cc576 !important;
+    border-radius: 52px;
+    font-size: .95rem;
+}
+.icon{
+    font-size: 5rem;
+}
+.icon-s{
+    font-size: 3.5rem;
+    color: var(--text-gray);
+    border: 4px solid var(--text-gray);
+    padding: 1.2rem;
+    border-radius: 50%;
+   
+}
+.text-green{
+    color: var(--main-color);
+}
+.ti-check{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    
+}
+.icon-b{
+    border: 2px solid #000;
+    border-radius: 50%;
+    font-size: 2rem !important;
+}
+.bg-message{
+    /* background: url(assets/images/bg-2.png); */
+}
+.bg-message2{
+    /* background: url(assets/images/bg-3.png); */
+}
+.bg-green{
+    background: var(--main-color);
+}
+.btn-floating{
+    border-radius: 65%;
+}
