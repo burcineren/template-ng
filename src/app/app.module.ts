@@ -11,6 +11,9 @@ import { ContactComponent } from './contact/contact.component';
 import { ComponentComponent } from './component/component.component';
 import { HeaderComponent } from './Component/header/header.component';
 import { FooterComponent } from './Component/footer/footer.component';
+import { MenuComponent } from './component/header/menu/menu.component';
+import { CarouselComponent } from './home/carousel/carousel.component';
+import { CardAreaComponent } from './home/card-area/card-area.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { FooterComponent } from './Component/footer/footer.component';
     ContactComponent,
     ComponentComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    MenuComponent,
+    CarouselComponent,
+    CardAreaComponent
   ],
   imports: [
     BrowserModule,
